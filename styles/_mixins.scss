@@ -15,6 +15,9 @@
   clear: both;
 }
 
-@mixin gradient-to-solid-hover($color: $red) {
-  background-color: linear-gradient (blue, transparent)
+@mixin gradient-to-solid-hover ($color: $blue) {
+  background-color: linear-gradient ($color, transparent);
+  &:hover {
+    background: $color;
+  }
 }

@@ -40,11 +40,11 @@ function onClick1() {
 window.onload = function() {
   output = document.getElementById('output');
   var hndlr = new Handler();
-    
+
   eventie.bind( document.body, 'click', onClick1 );
   eventie.bind( document.body, 'click', hndlr );
   eventie.bind( document.getElementById('turn-off'), 'click', function() {
-    eventie.unbind( document.body, 'click', onClick1 );  
+    eventie.unbind( document.body, 'click', onClick1 );
   }, false );
 
   function onResize() {

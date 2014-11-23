@@ -4,7 +4,7 @@ html {
 h2 {
   font-family: monospace, sans-serif;
   color: black;
-}  
+}
 .Blog-Title {
   max width: 12em;
   color: #23cdfd;
@@ -28,6 +28,7 @@ h2 {
 
 @import "css-modules";
 @import "article-block";
+@import "categories";
 @import "blogtitle";
 @import "main-nav";
 @import "page-footer";

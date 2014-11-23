@@ -12,3 +12,7 @@ body {
 img {
   max-width: 115%;
 }
+
+.container {
+  @include clearfix;
+}
