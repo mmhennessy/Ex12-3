@@ -67,6 +67,13 @@
   <img class="sample-image"
   src="article-block.png" alt="article-block">
 
+  <ul class="social-media">
+    <li><i class="fa fa-facebook"></i><span class="visuallyhidden">facebook</span></li>
+    <li><i class="fa fa-twitter"></i><span class="visuallyhidden">twitter</span></li>
+    <li><i class="fa fa-pinterest"></i><span class="visuallyhidden">pinterest</span></li>
+    <li><i class="fa fa-linked-in"></i><span class="visuallyhidden">linked-in</span></li>
+  </ul>
+
   <h2>.article-block</h2>
 
   <div class="container">
@@ -164,20 +171,48 @@
     </div>
   </div>
 
-  <footer>
+  <footer class="page-footer">
 
-        <img class="sample-image" src="page-footer.png" alt="page-footer">
+        <p>Minneapolis College of Art and Design @ 2014</p>
+
 
         <i class="fa fa-camera-retro"></i>
         fa-camera-retro
 
 
         <ul class="social-media">
-          <li><i class="fa fa-facebook"></i> <span class="visuallyhidden">facebook</spam></li>
-          <li><i class="fa fa-twitter"></i> <span class="visuallyhidden">twitter</spam></li>
-          <li><i class="fa fa-pinterest"></i> <span class="visuallyhidden">pinterest</spam></li>
-          <li><i class="fa fa-linked-in"></i> <span class="visuallyhidden">linked-in</spam></li>
+          <li><i class="fa fa-facebook"></i><span class="visuallyhidden">facebook</span></li>
+          <li><i class="fa fa-twitter"></i><span class="visuallyhidden">twitter</span></li>
+          <li><i class="fa fa-pinterest"></i><span class="visuallyhidden">pinterest</span></li>
+          <li><i class="fa fa-linked-in"></i><span class="visuallyhidden">linked-in</span></li>
         </ul>
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+
+        <script
+        src=../bower_components/jquery/dist/jquery.js></script>
+        <script
+        src=../bower_components/eventEmitter/eventEmitter.js></script>
+        <script
+        src=../bower_components/eventie/eventie.js></script>
+        <script
+        src=../bower_components/imagesloaded/imagesloaded.js></script>
+
+        <!-- endbuild -->
+        <script
+        src=../bower_components/imagefill/js/jquery-imagefill.js></script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="../app/scripts/main.js"></script>
+        <!-- endbuild -->
+      </footer>
+
 
                 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
                 <script>
@@ -189,29 +224,6 @@
                     ga('create','UA-XXXXX-X');ga('send','pageview');
                   </script>
 
-                  <!-- build:js scripts/vendor.js -->
-                  <!-- bower:js -->
-                  <!-- endbower -->
-                  <!-- endbuild -->
 
-                  <!-- build:js scripts/plugins.js -->
-
-                  <script
-                  src=../bower_components/jquery/dist/jquery.js></script>
-                  <script
-                  src=../bower_components/eventEmitter/event/Emitter.js></script>
-                  <script
-                  src=../bower_componentseventie/eventie.js></script>
-                  <script
-                  src=../bower_components/images/loaded/images/loaded.js></script>
-
-                  <!-- endbuild -->
-                  <script
-                  src=../bower_components/imagefill/js/jquery-imagefill.js></script>
-
-                  <!-- build:js scripts/main.js -->
-                  <script src="../app/scripts/main.js"></script>
-                  <!-- endbuild -->
-                </footer>
               </body>
               </html>
